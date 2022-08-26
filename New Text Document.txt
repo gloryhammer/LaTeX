@@ -1,0 +1,64 @@
+\documentclass[a4, 12p,twocolumn]{article}
+\usepackage[cp1250]{inputenc}
+\usepackage[serbian]{babel}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\title{Zavr\v{s}ni ispit}
+\author{123}
+\maketitle
+\section{Tekst i futnote}
+Nikada nemojte prestati osmjehivati, \v{c}ak i kad ste tuzni, jer se neko moze zaljubiti u vas osmjeh\footnote{Gabriel Garista Markes}.
+
+Vrijednost ljepote je u beskrajnoj raznolikosti vidova pod kojima nam se javlja. U tome je njena oplemenjujuca snaga i njena najve\'{c}a dra\v{z}\footnote{Ivo Andri\'{c}}.
+\section{Formule}
+unutar teksta:$x\geq24$.
+U posebnoj liniji:
+$$\frac{x+1}{x-1}=\sqrt{\beta}$$
+\subsection{Matrice}
+\begin{equation}
+A=
+\begin{bmatrix}
+7&x&43\\
+79&2&6\\
+8&75&4
+\end{bmatrix}
+\end{equation}
+
+\begin{equation}
+A^2=
+\begin{bmatrix}
+7&x&43\\
+79&2&6\\
+8&75&4
+\end{bmatrix}
+\begin{bmatrix}
+7&x&43\\
+79&2&6\\
+8&75&4
+\end{bmatrix}
+\end{equation}
+Uo\v{c}ite da se ista matrica tri puta pojavlju-
+
+je.
+\newpage
+\section{Ostalo}
+\subsection{Tabela}
+\begin{tabular}{|c||c||c|}
+\hline
+Jedinica & Iznos & Opis\\
+\hline
+\hline
+cm&1759&du\v{z}ina\\
+\hline
+A&41&struja\\
+\hline
+\end{tabular}
+\subsection{Numerisana lista}
+\begin{enumerate}
+\item Du\v{z}ina 1759cm
+\item Udaljenost 9 kilometara
+\item Struja 41 A
+\end{enumerate}
+Nakon uploada PDFfajla unesite u polje za odgovor broj:
+\tableofcontents
+\end{document}
